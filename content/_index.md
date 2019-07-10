@@ -6,8 +6,10 @@ weight = 5
 
 {{% notice note %}}
 镜像站wiki施工中，已列出部分可以参考:
+
 - Archlinux
 - Archlinux CN
 - CentOS
 - Manjaro
+
 {{% /notice %}}
