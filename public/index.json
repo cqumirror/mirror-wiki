@@ -1,0 +1,71 @@
+[
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/about/special-thanks/",
+	"title": "特别致谢",
+	"tags": [],
+	"description": "",
+	"content": "感谢所有为重大开源镜像站建设贡献力量的个人以及团体,没有你们的帮助我们无法将镜像站建设成为今天的模样。 （排名不分先后）\n 重庆大学信息化办公室 Chonqing LUG Yifan Wang Yang Tan Songlin Yang Zipei Feng Qixiang Wen Zhiqiang He LAOHEI  以及，其他Linux发行版中文社区的同伴们。\n"
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/mirror-wiki/arch-linux/",
+	"title": "Arch Linux源使用帮助",
+	"tags": [],
+	"description": "",
+	"content": " 地址 http://mirrors.cqu.edu.cn/archlinux/\n说明 Arch Linux软件源\n收录框架 x86_64\n使用说明 以root身份手动编辑文件/etc/pacman.d/mirrorlist，在文件顶端加入\nServer = http://mirrors.cqu.edu.cn/archlinux/$repo/os/$arch  "
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/mirror-wiki/arch-linux-cn/",
+	"title": "ArchLinux CN镜像使用帮助",
+	"tags": [],
+	"description": "",
+	"content": " 地址 http://mirrors.cqu.edu.cn/archlinuxcn/\n说明 Arch Linux CN仓库\n简介 Arch Linux 中文社区仓库是由 Arch Linux 中文社区驱动的非官方用户仓库。包含中文用户常用软件、工具、字体/美化包等。\n仓库地址：http://repo.archlinuxcn.org\n收录框架 x86_64\n使用说明 以root身份手动编辑文件/etc/pacman.conf，在文件末尾加入\n[archlinuxcn] SigLevel = TrustedOnly Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch  执行：\npacman -Syy  强制刷新软件源。 再执行：\npacman -S archlinuxcn-keyring  添加archlinuxCN的GPG key SigLevel建议为TrustedOnly\n 相关链接 Arch Linux 中文社区主页: https://www.archlinuxcn.org Arch Linux 中文社区仓库 / 镜像加速源介绍: https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/\n"
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/mirror-wiki/centos/",
+	"title": "CentOS镜像使用帮助",
+	"tags": [],
+	"description": "",
+	"content": " 地址 http://mirrors.cqu.edu.cn/CentOS\n说明 CentOS软件源\n收录框架  x86_64 i386\n收录版本 CentOS 5\n CentOS 6\n CentOS 7\n使用说明 首先备份CentOS-Base.repo:\nmv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup  然后查看CentOS版本：\ncat /etc/system-release  根据版本号下载相应文件到指定目录： CentOS 5:\nwget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cqu.edu.cn/repo//centos/Centos-5.repo  CentOS 6:\nwget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cqu.edu.cn/repo//centos/Centos-6.repo  CentOS 7:\nwget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cqu.edu.cn/repo//centos/Centos-7.repo  然后刷新yum缓存：\nyum makecache  相关链接 官方主页：https://www.centos.org/\n 邮件列表：https://www.centos.org/modules/tinycontent/index.php?id=16\n 论坛：https://www.centos.org/modules/newbb/\n 文档：https://www.centos.org/docs/\n Wiki：https://wiki.centos.org/\n   "
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/mirror-wiki/manjaro-linux/",
+	"title": "manjaro linux镜像使用帮助",
+	"tags": [],
+	"description": "",
+	"content": " 地址 http://mirrors.cqu.edu.cn/manjaro/\n说明 Arch Linux软件源\n收录框架  x86_64 i686\n使用说明 以root身份手动编辑文件/etc/pacman.d/mirrorlist，在文件顶端加入\nServer = http://mirrors.cqu.edu.cn/manjaro/stable/$repo/$arch  相关链接 官方网址：https://www.manjaro.org/\n 官方论坛：https://forum.manjaro.org/\n Wiki: https://wiki.manjaro.org/\n   "
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/about/",
+	"title": "关于",
+	"tags": [],
+	"description": "",
+	"content": " 关于我们： 重庆大学蓝盟（英文名lanunion）是在重庆大学信息化办公室指导下成立的校级学生社团，是一个为重庆大学师生免费提供计算机系统、软件与网络维护服务的志愿者组织。“蓝客”即蓝盟的正式成员，他们利用自己的电脑知识无偿为大家进行计算机系统、软件与网络维护。\n"
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/mirror-wiki/",
+	"title": "镜像使用指南",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/",
+	"title": "镜像站使用帮助",
+	"tags": [],
+	"description": "",
+	"content": "镜像站wiki施工中，已列出部分可以使用。\n "
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
