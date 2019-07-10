@@ -39,7 +39,7 @@ wget   -O   /etc/yum.repos.d/CentOS-Base.repo  http://mirrors.cqu.edu.cn/repo/ce
 ```
 {{% notice warn %}}
 有些情况下系统没有预装`wget`程序，请提前进行安装。
-{{% notice %}}
+{{% /notice %}}
 然后刷新yum缓存：
 ```bash
 yum makecache
