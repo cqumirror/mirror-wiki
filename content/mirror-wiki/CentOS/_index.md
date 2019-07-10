@@ -27,15 +27,15 @@ cat /etc/system-release
 根据版本号下载相应文件到指定目录：</br>
 **CentOS 5**:
 ```bash
-wget   -O   /etc/yum.repos.d/CentOS-Base.repo  http://mirrors.cqu.edu.cn/repo//centos/Centos-5.repo
+wget   -O   /etc/yum.repos.d/CentOS-Base.repo  http://mirrors.cqu.edu.cn/repo/centos/Centos-5.repo
 ```
 **CentOS 6**:
 ```bash
-wget   -O   /etc/yum.repos.d/CentOS-Base.repo  http://mirrors.cqu.edu.cn/repo//centos/Centos-6.repo
+wget   -O   /etc/yum.repos.d/CentOS-Base.repo  http://mirrors.cqu.edu.cn/repo/centos/Centos-6.repo
 ```
 **CentOS 7**:
 ```bash
-wget   -O   /etc/yum.repos.d/CentOS-Base.repo  http://mirrors.cqu.edu.cn/repo//centos/Centos-7.repo
+wget   -O   /etc/yum.repos.d/CentOS-Base.repo  http://mirrors.cqu.edu.cn/repo/centos/Centos-7.repo
 ```
 然后刷新yum缓存：
 ```bash
