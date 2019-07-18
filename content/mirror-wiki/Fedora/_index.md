@@ -33,3 +33,10 @@ wget   -O   /etc/yum.repos.d/fedora-updates.repo   http://mirrors.cqu.edu.cn/rep
 wget   -O   /etc/yum.repos.d/fedora-modular.repo   http://mirrors.cqu.edu.cn/repo/fedora/fedora-modular.repo
 wget   -O   /etc/yum.repos.d/fedora-updates-modular.repo   http://mirrors.cqu.edu.cn/repo/fedora/fedora-updates-modular.repo
 ```
+
+再执行：
+```bash
+sudo dnf makecache
+```
+生成缓存。
+{{%attachments title="repo文件直接下载" pattern=".*(repo)"/%}}
