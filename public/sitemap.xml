@@ -23,8 +23,23 @@
   </url>
   
   <url>
+    <loc>https://mirrors.cqu.edu.cn/wiki/mirror-wiki/fedora/</loc>
+    <lastmod>2019-02-07T16:20:09+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mirrors.cqu.edu.cn/wiki/mirror-wiki/manjaro-linux/</loc>
     <lastmod>2019-02-07T16:20:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirrors.cqu.edu.cn/wiki/mirror-wiki/ubuntu-linux/</loc>
+    <lastmod>2019-02-07T16:20:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirrors.cqu.edu.cn/wiki/todo/</loc>
+    <lastmod>2019-02-07T16:28:15+08:00</lastmod>
   </url>
   
   <url>

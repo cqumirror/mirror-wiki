@@ -1,10 +1,10 @@
 [
 {
 	"uri": "https://mirrors.cqu.edu.cn/wiki/about/special-thanks/",
-	"title": "特别致谢",
+	"title": "特别致谢 Special Thanks",
 	"tags": [],
 	"description": "",
-	"content": "感谢所有为重大开源镜像站建设贡献力量的个人以及团体,没有你们的帮助我们无法将镜像站建设成为今天的模样。 （排名不分先后）\n 重庆大学信息化办公室 Chonqing LUG Yifan Wang Yang Tan Songlin Yang Zipei Feng Qixiang Wen Zhiqiang He LAOHEI  以及，其他Linux发行版中文社区的同伴们。\n"
+	"content": "感谢所有为重大开源镜像站建设贡献力量的个人以及团体,没有你们的帮助我们无法将镜像站建设成为今天的模样。 High tribute shall be paid to the individuals and communities listed below.\n（按时间排序/Order by timeline）\n 来自重庆大学、开源社区社区的同伴们/ Mates from Chongqing University and open source communities.\n 重庆大学信息化办公室 /Information Office of CQU\n 重庆大学蓝客联盟 /Lanunion, CQU\n 齐彬烨 /Qi Binye\n 冯子佩 /Feng Zipei\n 王一帆 /Wang Yifan\n 重庆 LUG /Chongqing LUG\n 闻其详 /Bootingman\n 老黑 /Operator\n 何志强 /He Zhiqiang\n 谭洋 /Tan Yang\n  "
 },
 {
 	"uri": "https://mirrors.cqu.edu.cn/wiki/mirror-wiki/arch-linux/",
@@ -25,14 +25,35 @@
 	"title": "CentOS镜像使用帮助",
 	"tags": [],
 	"description": "",
-	"content": " 地址 http://mirrors.cqu.edu.cn/CentOS\n说明 CentOS软件源\n收录框架  x86_64 i386\n收录版本 CentOS 5\n CentOS 6\n CentOS 7\n使用说明 首先备份CentOS-Base.repo:\nmv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup  然后查看CentOS版本：\ncat /etc/system-release  根据版本号下载相应文件到指定目录： CentOS 5:\nwget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cqu.edu.cn/repo//centos/Centos-5.repo  CentOS 6:\nwget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cqu.edu.cn/repo//centos/Centos-6.repo  CentOS 7:\nwget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cqu.edu.cn/repo//centos/Centos-7.repo  然后刷新yum缓存：\nyum makecache  相关链接 官方主页：https://www.centos.org/\n 邮件列表：https://www.centos.org/modules/tinycontent/index.php?id=16\n 论坛：https://www.centos.org/modules/newbb/\n 文档：https://www.centos.org/docs/\n Wiki：https://wiki.centos.org/\n   "
+	"content": " 地址 http://mirrors.cqu.edu.cn/CentOS\n说明 CentOS软件源\n收录框架  x86_64 i386\n收录版本 CentOS 5\n CentOS 6\n CentOS 7\n使用说明 首先备份CentOS-Base.repo:\nmv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup  然后查看CentOS版本：\ncat /etc/system-release  根据版本号下载相应文件到指定目录： CentOS 5:\nwget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cqu.edu.cn/repo/centos/Centos-5.repo  CentOS 6:\nwget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cqu.edu.cn/repo/centos/Centos-6.repo  CentOS 7:\nwget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cqu.edu.cn/repo/centos/Centos-7.repo  有些情况下系统没有预装wget程序，请提前进行安装。\n 然后刷新yum缓存：\nyum makecache  相关链接 官方主页：https://www.centos.org/\n 邮件列表：https://www.centos.org/modules/tinycontent/index.php?id=16\n 论坛：https://www.centos.org/modules/newbb/\n 文档：https://www.centos.org/docs/\n Wiki：https://wiki.centos.org/\n   "
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/mirror-wiki/fedora/",
+	"title": "Fedora镜像使用帮助",
+	"tags": [],
+	"description": "",
+	"content": " 地址 https://mirrors.cqu.edu.cn/fedora\n描述 Fedora Linux 软件仓库\n收录框架 x86_64\n收录版本 仅release\n使用说明 首先做好备份操作：\n# fedora mv /etc/yum.repos.d/fedora.repo /etc/yum.repos.d/fedora.repo.bak mv /etc/yum.repos.d/fedora-updates.repo /etc/yum.repos.d/fedora-updates.repo.bak  # fedora modular mv /etc/yum.repos.d/fedora-updates.repo /etc/yum.repos.d/fedora-updates.repo.bak mv /etc/yum.repos.d/fedora-modular.repo /etc/yum.repos.d/fedora-modular.repo.bak  然后执行：\nwget -O /etc/yum.repos.d/fedora.repo http://mirrors.cqu.edu.cn/repo/fedora/fedora.repo wget -O /etc/yum.repos.d/fedora-updates.repo http://mirrors.cqu.edu.cn/repo/fedora/fedora-updates.repo  wget -O /etc/yum.repos.d/fedora-modular.repo http://mirrors.cqu.edu.cn/repo/fedora/fedora-modular.repo wget -O /etc/yum.repos.d/fedora-updates-modular.repo http://mirrors.cqu.edu.cn/repo/fedora/fedora-updates-modular.repo  再执行：\nsudo dnf makecache  生成缓存。   repo文件直接下载   fedora-modular.repo  (1 ko)   fedora-updates-modular.repo  (1 ko)   fedora-updates.repo  (1 ko)   fedora.repo  (1 ko)    相关链接 官方主页 https://getfedora.org/\n 邮件列表 https://fedoraproject.org/wiki/Communicating_and_getting_help\n 论坛 https://forums.fedoraforum.org/\n 文档 https://docs.fedoraproject.org/\n Wiki https://fedoraproject.org/wiki/\n "
 },
 {
 	"uri": "https://mirrors.cqu.edu.cn/wiki/mirror-wiki/manjaro-linux/",
-	"title": "manjaro linux镜像使用帮助",
+	"title": "Manjaro Linux镜像使用帮助",
 	"tags": [],
 	"description": "",
 	"content": " 地址 http://mirrors.cqu.edu.cn/manjaro/\n说明 Arch Linux软件源\n收录框架  x86_64 i686\n使用说明 以root身份手动编辑文件/etc/pacman.d/mirrorlist，在文件顶端加入\nServer = http://mirrors.cqu.edu.cn/manjaro/stable/$repo/$arch  相关链接 官方网址：https://www.manjaro.org/\n 官方论坛：https://forum.manjaro.org/\n Wiki: https://wiki.manjaro.org/\n   "
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/mirror-wiki/ubuntu-linux/",
+	"title": "Ubuntu镜像使用帮助",
+	"tags": [],
+	"description": "",
+	"content": "rsadesdfasdfasdfsd "
+},
+{
+	"uri": "https://mirrors.cqu.edu.cn/wiki/todo/",
+	"title": "TODO",
+	"tags": [],
+	"description": "",
+	"content": "[ ] sync openwrt / pandorabox repo [ ] rsync service [ ] wiki writing [ ] mirror web template rework\n"
 },
 {
 	"uri": "https://mirrors.cqu.edu.cn/wiki/about/",
@@ -53,7 +74,7 @@
 	"title": "镜像站使用帮助",
 	"tags": [],
 	"description": "",
-	"content": "镜像站wiki施工中，已列出部分可以使用。\n "
+	"content": "镜像站wiki施工中，已列出部分可以参考(按照完成顺序):\n Archlinux Archlinux CN CentOS Manjaro Fedora   "
 },
 {
 	"uri": "https://mirrors.cqu.edu.cn/wiki/categories/",
