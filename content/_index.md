@@ -12,5 +12,6 @@ weight = 5
 - CentOS
 - Manjaro
 - Fedora
+- Ubuntu
 
 {{% /notice %}}
