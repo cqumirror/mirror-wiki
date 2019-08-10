@@ -15,6 +15,6 @@ weight = 5
 - Ubuntu
  
  now working on:
-[ ] opensuse
-[ ] Debian
+- [ ] opensuse
+- [ ] Debian
 {{% /notice %}}
