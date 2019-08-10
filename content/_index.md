@@ -13,5 +13,8 @@ weight = 5
 - Manjaro
 - Fedora
 - Ubuntu
-
+ 
+ now working on:
+ [ ] opensuse
+ [ ] Debian
 {{% /notice %}}
