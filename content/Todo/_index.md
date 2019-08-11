@@ -10,3 +10,6 @@ weight = 5
 - [ ] wiki/Debian
 - [ ] wiki/opensuse-tunbleweed
 - [ ] dart/pub.dev
+- [x] mirror/dart
+- [x] mirror/flutter
+- [x] wiki/opensuse
