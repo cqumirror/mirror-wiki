@@ -7,3 +7,6 @@ weight = 5
 - [ ] rsync service
 - [ ] wiki writing
 - [ ] mirror web template rework
+- [ ] wiki/Debian
+- [ ] wiki/opensuse-tunbleweed
+- [ ] dart/pub.dev
