@@ -17,9 +17,9 @@ OpenWrt / LDED 软件源
 单击 `Submit` 提交修改。
 切换到`Package`页面并单击 `refresh` 刷新包管理器缓存。
 ### Shell
-{{ % notice note % }}
+{{% notice note %}}
 请确保在此次登陆后及时修改 root 密码
-{{ % /notice % }}
+{{% /notice %}}
 使用如 putty 等支持 openssh 的工具，Linux 以及 MacOS 可以直接在终端中执行：
 ```bash
 ssh root@IP -p PORT
@@ -36,9 +36,9 @@ sed -i 's/downloads.openwrt.org/mirrors.cqu.edu.cn\/openwrt/g' /etc/opkg/distfee
 opkg update
 ```
 更改软件源并刷新缓存。
-{{ % notice warning % }}
+{{% notice warning %}}
 刷新缓存时请注意网络连接，重庆大学校内请注意要有有效的校园网连接（不需要登录认证）
-{{ % /notice % }}
+{{% /notice %}}
 ## 相关链接
 官网：
 https://openwrt.org
