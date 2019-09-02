@@ -14,13 +14,23 @@ openSUSE tumbleweed软件仓库
 ## 收录版本
 Tumbleweed
 ## 使用说明
-### 简易版本
 
-- OSS
-- update:OSS
-- update:NON-OSS
-- NON-OSS
-
+首先禁用全部仓库：
+```bash
+sudo zypper mr -da
+```
+然后依次执行(Leap 15.1为例):
+```bash
+# OSS
+sudo zypper ar -fc http://mirrors.cqu.edu.cn/opensuse/tumbleweed/repo/oss   openSUSE-CQU-OSS
+# NON-OSS
+sudo zypper ar -fc http://mirrors.cqu.edu.cn/opensuse/tumbleweed/repo/non-oss   openSUSE-CQU-NON-OSS
+```
+然后执行：
+```bash
+zypper up
+```
+刷新缓存
 
 ## 相关链接
 官方主页

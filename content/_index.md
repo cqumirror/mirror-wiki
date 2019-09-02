@@ -15,3 +15,5 @@ weight = 5
 - Fedora
 - Ubuntu
 - opensuse leap
+- opensuse tumbleweed
+- OpenWrt / LEDE
