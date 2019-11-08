@@ -8,10 +8,10 @@ High tribute shall be paid to the individuals and communities listed below.
 
 （按时间排序/Order by timeline）
 
-- 来自重庆大学、开源社区社区的同伴们/
+- 来自重庆大学、开源社区的同伴们/
   Mates from Chongqing University and open source communities.
 
-- 重庆大学信息化办公室  /Information Office of CQU 
+- 重庆大学信息化办公室  /Information Office of CQU
 - 重庆大学蓝客联盟     /Lanunion, CQU
 
 - 齐彬烨             /Qi Binye
@@ -19,6 +19,6 @@ High tribute shall be paid to the individuals and communities listed below.
 - 王一帆             /Wang Yifan
 - 重庆 LUG           /Chongqing LUG
 - 闻其详             /Bootingman
-- 老黑              /Operator
+- 徐紫辰              /Alceatraz Wraprays
 - 何志强            /He Zhiqiang
 - 谭洋              /Tan Yang
