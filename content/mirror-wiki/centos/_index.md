@@ -15,6 +15,7 @@ CentOS软件源
 - CentOS 5
 - CentOS 6
 - CentOS 7
+- CentOS 8
 ## 使用说明
 首先备份`CentOS-Base.repo`:
 ```bash
@@ -36,6 +37,15 @@ wget   -O   /etc/yum.repos.d/CentOS-Base.repo  http://mirrors.cqu.edu.cn/repo/ce
 **CentOS 7**:
 ```bash
 wget   -O   /etc/yum.repos.d/CentOS-Base.repo  http://mirrors.cqu.edu.cn/repo/centos/Centos-7.repo
+```
+**CentOS 8**
+```bash
+# CentOS-Base
+wget   -O   /etc/yum.repos.d/CentOS-Base.repo  http://mirrors.cqu.edu.cn/repo/centos/Centos-8-repo/CentOS-Base.repo
+# CentOS-Extra
+wget   -O   /etc/yum.repos.d/CentOS-Extras.repo  http://mirrors.cqu.edu.cn/repo/centos/Centos-8-repo/CentOS-Extras.repo
+# CentOS-AppStream
+wget   -O   /etc/yum.repos.d/CentOS-AppStream.repo  http://mirrors.cqu.edu.cn/repo/centos/Centos-8-repo/CentOS-AppStream.repo
 ```
 {{% notice note %}}
 有些情况下系统没有预装`wget`程序，请提前进行安装。
