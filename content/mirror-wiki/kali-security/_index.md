@@ -16,7 +16,8 @@ Kali Linux的安全更新
 ```
 $cd /etc/apt/
 $cp sources.list sources.list.txt
-$vim sources.list
+$sudo vim sources.list
+(下为sources.list文件的内容，需要输入一次登录账号的密码)
 
 # 
 
@@ -38,11 +39,11 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 ### 2: 添加源
 * 1：在键盘按下<kbd>i</kbd>键 进入编辑模式，将光标移动到上面(_)所示位置
 * 2：添加下列代码
-* 3：按下<kbd>Exc</kbd>退出编辑模式，同时按下<kbd>shitf</kbd>+<kbd>;</kbd>键，在输入<kbd>w</kbd>+<kbd>q</kbd>，回车保存 
 ```
 deb http://old.kali.org/kali-security sana/updates main contrib non-free
 # deb http://old.kali.org/kali-security sana/updates main contrib non-free
 ```
+* 3：按下<kbd>Exc</kbd>退出编辑模式，同时按下<kbd>shitf</kbd>+<kbd>;</kbd>键，在输入<kbd>w</kbd>+<kbd>q</kbd>，回车保存 
 * 4：检查是否可用\
 在终端中输入，若显示有重大镜像站的相应网址，则成功
 ```
