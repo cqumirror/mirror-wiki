@@ -8,7 +8,7 @@ weight: 2
 https://mirrors.cqu.edu.cn/fedora
 ## 描述
 Fedora Linux 软件仓库
-## 收录框架
+## 收录架构
 x86_64
 ## 收录版本
 仅`release`
