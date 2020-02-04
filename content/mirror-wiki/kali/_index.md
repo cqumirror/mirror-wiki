@@ -1,25 +1,44 @@
-| title | date | draft | weight |
-| --- | --- | --- | --- |
-| Kali Linux镜像使用帮助 | 2020-1-13 | false | 2 |
-
-# 说明
+---
+title: "Kali linux 镜像使用帮助"
+date: 2019-02-07T16:20:09+08:00
+draft: false
+weight: 2
+---
+## 地址
+https://mirrors.cqu.edu.cn/kali
+## 描述
 kali Linux的官方软件包仓库
-# 使用说明
-## 较为详细的步骤
-此步骤假定你是一位Linux的小白\
-若你是一名比较了解linux系统操作的程序员，在下一个标题下会带有所需软件包代码
-### 1：打开下载源的配置文件(注意备份，方便恢复)(不建议跳过)(这里使用vim进行操作，当然，你也可以使用其他编辑器)
+## 收录架构
+
+- x86_64
+- x86
+
+## 使用说明
+### 详细使用步骤
+{{% notice note %}}
+此步骤假定你是一位 Linux 的初级使用者，请跟着步骤一步步操作
+{{% /notice %}}
+
+#### 1. 定位并且备份 `sources.list`
+
 ```
 $ cd /etc/apt/
-$ cp sources.list sources.list.txt
+$ cp sources.list sources.list.bak
+```
+
+#### 2. 编辑 `sources.list` 文件
+一般未编辑的`sources.list`文件如下所示。
+
+```
 $ sudo vim sources.list
-(下为sources.list文件的内容，需要输入一次登录账号的密码)
+
 ---------------------
+# sources.list
+---------------------
+
 # deb cdrom:[Debian GNU/Linux 2019.3 _Kali-rolling_ - Official Snapshot amd64 LIVE/INSTALL Binary 20190827-10:52]/ kali-last-snapshot contrib main non-free
 
-#deb cdrom:[Debian GNU/Linux 2019.3 _Kali-rolling_ - Official Snapshot amd64 LIVE/INSTALL Binary 20190827-10:52]/ kali-last-snapshot contrib main non-free
-
-_(光标位置)
+# deb cdrom:[Debian GNU/Linux 2019.3 _Kali-rolling_ - Official Snapshot amd64 LIVE/INSTALL Binary 20190827-10:52]/ kali-last-snapshot contrib main non-free
 
 deb http://http.kali.org/kali kali-rolling main non-free contrib
 # deb-src http://http.kali.org/kali kali-rolling main non-free contrib
@@ -30,23 +49,42 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 # For information about how to configure apt package sources,
 # see the sources.list(5) manual.
 ```
-### 2: 添加源
-* 1：在键盘按下<kbd>i</kbd>键 进入编辑模式，将光标移动到上面(_)所示位置
-* 2：添加下列代码
+
+#### 3. 添加源
+
+> 以下以`vim`作为示例
+
+1. 在键盘按下<kbd>i</kbd>键 进入编辑模式
+2. 添加下方所示内容或者将`http.kali.org`替换为 `mirrors.cqu.edu.cn`
 ```
 deb https://mirrors.cqu.edu.cn/kali kali-rolling main non-free contrib
 # deb-src https://mirror.cqu.edu.cn/kali kali-rolling main non-free contrib
 ```
-* 3：按下<kbd>Exc</kbd>退出编辑模式，同时按下<kbd>shitf</kbd>+<kbd>;</kbd>键，在输入<kbd>w</kbd>+<kbd>q</kbd>，回车保存
+3. 按下<kbd>Exc</kbd>退出编辑模式，同时按下<kbd>shitf</kbd>+<kbd>;</kbd>键，在输入<kbd>w</kbd>+<kbd>q</kbd>，回车保存
 
-* 4：检查是否可用\
-在终端中输入，若显示有重大镜像站的相应网址，则成功
+#### 4. 刷新缓存
+
 ```
 $ sudo apt-get update
 ```
 
-## 添加的软件包源代码
+### 一般更换步骤
+
+在终端中直接执行以下命令以进行更改：
+```bash
+su -c "sed -i s/http.kali.org/mirrors.cqu.edu.cn/ /etc/apt/sources.list"
 ```
-deb https://mirrors.cqu.edu.cn/kali kali-rolling main non-free contrib
-# deb-src https://mirror.cqu.edu.cn/kali kali-rolling main non-free contrib
-```
+{{% notice tip %}}
+详细有关`sed`指令的内容请参考`sed`man page 或者 参阅 [Arch Linux WIKI](https://wiki.archlinux.org/index.php/Core_utilities#Essentials)
+{{% /notice %}}
+## 相关链接
+Kali Linux 主页
+https://www.kali.org/
+
+文档
+https://www.kali.org/kali-linux-documentation/
+
+论坛
+http://forums.kali.org/
+
+Next  Previous
