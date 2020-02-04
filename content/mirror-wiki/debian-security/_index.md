@@ -9,10 +9,18 @@ weight: 2
 ## 说明
 Debian 安全更新
 ## 收录架构
-x86, amd64 (x86_64), armel, armhl, arm64, mipsel, mips64el, ppc64el, s390x, 源代码
+- x86
+- x86_64
+- armel
+- arm64
+- ppc64el
+- source code
 
 ## 收录版本
-oldoldstable (jessie), oldstable (stretch), stable (buster), testing (bullseye) 
+- old stable (Debian 8 jessie)
+- old stable (Deibian 9 stretch)
+- stable (Debian 10 buster)
+- testing (bullseye)
 
 ## 使用说明
 
