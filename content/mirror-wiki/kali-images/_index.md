@@ -17,9 +17,7 @@ armhf
 stable\
 testing
 # 使用说明
-自带[Graphical install]，简体中文及新手安装指导，可按照系统自带引导进行安装。基于Debian环境(虚拟机安装)
-
-[Graphical install]:图形安装
+自带图像安装[Graphical install]，简体中文及新手安装指导，可按照系统自带引导进行安装。基于Debian环境(虚拟机安装)
 
 其软件包源和安全更新可以先默认预先设置的下载源再手动更改至国内源\
 (详细请看重庆大学镜像站[kali](https://mirrors.cqu.edu.cn/wiki/mirror-wiki/kali)，[kali-security](https://mirrors.cqu.edu.cn/siki/mirror-wiki/kali-security)的wiki中的操作)
