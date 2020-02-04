@@ -86,5 +86,3 @@ https://www.kali.org/kali-linux-documentation/
 
 论坛
 http://forums.kali.org/
-
-Next  Previous
