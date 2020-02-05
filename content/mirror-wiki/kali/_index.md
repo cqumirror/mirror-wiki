@@ -23,7 +23,7 @@ kali Linux的官方软件包仓库
 
 ```
 $ cd /etc/apt/
-$ cp sources.list sources.list.bak
+$ sudo cp sources.list sources.list.bak
 ```
 
 #### 2. 编辑 `sources.list` 文件
@@ -72,7 +72,7 @@ $ sudo apt-get update
 
 在终端中直接执行以下命令以进行更改：
 ```bash
-su -c "sed -i s/http.kali.org/mirrors.cqu.edu.cn/ /etc/apt/sources.list"
+sudo sed -i s/http.kali.org/mirrors.cqu.edu.cn/ /etc/apt/sources.list
 ```
 {{% notice tip %}}
 详细有关`sed`指令的内容请参考`sed`man page 或者 参阅 [Arch Linux WIKI](https://wiki.archlinux.org/index.php/Core_utilities#Essentials)
