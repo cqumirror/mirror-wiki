@@ -1,7 +1,9 @@
-| title | date | draft | weight |
-| --- | --- | --- | --- |
-| Kali Linux镜像使用帮助 | 2020-1-13 | false | 2 |
-
+---
+title: Kali Linux镜像使用帮助
+date: 2020-1-13
+draft: false
+weight: 2
+---
 # 地址
 https://mirror.cqu.edu.cn
 # 说明
