@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 ### 地址
-https://mirror.cqu.edu.cn/kali-security/
+https://mirrors.cqu.edu.cn/kali-security/
 ### 说明
 Kali Linux的安全更新
 
@@ -19,7 +19,7 @@ Kali Linux的安全更新
 ```
 $cd /etc/apt/
 ------------------------------------
-$cp sources.list sources.list.txt
+$sudo cp sources.list sources.list.txt
 ------------------------------------
 $sudo vim sources.list
 ------------------------------------
@@ -48,7 +48,7 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 deb http://mirrors.cqu.edu.cn/kali-security sana/updates main contrib non-free
 # deb http://mirrors.cqu.edu.cn/kali-security sana/updates main contrib non-free
 ```
-* 3：按下<kbd>Exc</kbd>退出编辑模式，同时按下<kbd>shitf</kbd>+<kbd>;</kbd>键，在输入<kbd>w</kbd>+<kbd>q</kbd>，回车保存
+* 3：按下<kbd>Esc</kbd>退出编辑模式，同时按下<kbd>shitf</kbd>+<kbd>;</kbd>键，在输入<kbd>w</kbd>+<kbd>q</kbd>，回车保存
 ##### 3：刷新缓存
 ```
 $ sudo apt update
