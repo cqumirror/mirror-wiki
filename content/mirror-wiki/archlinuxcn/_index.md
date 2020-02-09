@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 ## 地址
-http://mirrors.cqu.edu.cn/archlinuxcn/
+https://mirrors.cqu.edu.cn/archlinuxcn/
 ## 说明
 Arch Linux CN仓库
 ## 简介
@@ -19,7 +19,7 @@ x86_64
 ```bash
 [archlinuxcn]
 SigLevel = TrustedOnly
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 执行：
 ```bash
