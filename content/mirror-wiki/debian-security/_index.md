@@ -45,7 +45,7 @@ su -c "sed -i 's|#*deb http://security.debian.org|deb https://mirrors.cqu.edu.cn
 
 来完成这一操作。
 
-但我们更推荐更安全的做法——`sudo`。[如何配置`sudo`](http://localhost:1313/wiki/mirror-wiki/debian/sudo/)。
+但我们更推荐更安全的做法——`sudo`。[如何配置`sudo`](/wiki/mirror-wiki/debian/sudo)。
 {{% /expand %}}
 
 另外，您亦可手动编辑`/etc/apt/sources.list`（TODO）。
