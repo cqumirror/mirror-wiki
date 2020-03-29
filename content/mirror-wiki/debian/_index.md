@@ -8,10 +8,24 @@ draft: false
 ## 说明
 Debian 软件仓库
 ## 收录架构
-x86, amd64 (x86_64), armel, armhl, arm64, mipsel, mips64el, ppc64el, s390x, 源代码
+- x86
+- amd64 (x86_64)
+- armel
+- armhl
+- arm64
+- mipsel
+- mips64el
+- ppc64el
+- s390x
+- 源代码
 
 ## 收录版本
-oldoldstable (jessie), oldstable (stretch), stable (buster), testing (bullseye), unstable (sid), experimental 
+- oldoldstable (jessie)
+- oldstable (stretch)
+- stable (buster)
+- testing (bullseye)
+- unstable (sid)
+- experimental 
 
 ## 使用说明
 默认情况下，以下命令可以将默认软件源（`deb.debian.org/debian`）替换为重庆大学镜像站（`mirrors.cqu.edu.cn/debian`）。
@@ -28,7 +42,7 @@ su -c 'sed -i s/deb.debian.org/mirrors.cqu.edu.cn/ /etc/apt/sources.list'
 
 来完成这一操作。
 
-但我们更推荐更安全的做法——`sudo`。[如何配置`sudo`](http://localhost:1313/wiki/mirror-wiki/debian/sudo/)。
+但我们更推荐更安全的做法——`sudo`。[如何配置`sudo`](/wiki/mirror-wiki/debian/sudo)。
 {{% /expand %}}
 
 除此之外，您亦可手动编辑`/etc/apt/sources.list`（TODO）。
