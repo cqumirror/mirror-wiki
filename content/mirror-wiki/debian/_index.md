@@ -2,7 +2,6 @@
 title: "Debian 软件仓库使用帮助"
 date: 2020-02-03T22:10:00+08:00
 draft: false
-weight: 2
 ---
 ## 地址
 <https://mirrors.cqu.edu.cn/debian>
@@ -17,6 +16,19 @@ oldoldstable (jessie), oldstable (stretch), stable (buster), testing (bullseye),
 ## 使用说明
 默认情况下，以下命令可以将默认软件源（`deb.debian.org/debian`）替换为重庆大学镜像站（`mirrors.cqu.edu.cn/debian`）。
 ```shell 
-su -c "sed -i s/deb.debian.org/mirrors.cqu.edu.cn/ /etc/apt/sources.list"
+sudo sed -i s/deb.debian.org/mirrors.cqu.edu.cn/ /etc/apt/sources.list
 ```
-用户亦可手动编辑`/etc/apt/sources.list`（TODO）。
+
+{{% expand "如果出现“USERNAME 不在 sudoers 文件中。此事将被报告”或“USERNAME is not in the sudoers file.  This incident will be reported.”" %}}
+可以使用
+
+```shell
+su -c 'sed -i s/deb.debian.org/mirrors.cqu.edu.cn/ /etc/apt/sources.list'
+```
+
+来完成这一操作。
+
+但我们更推荐更安全的做法——`sudo`。[如何配置`sudo`](http://localhost:1313/wiki/mirror-wiki/debian/sudo/)。
+{{% /expand %}}
+
+除此之外，您亦可手动编辑`/etc/apt/sources.list`（TODO）。
