@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 ## 地址
-http://mirrors.cqu.edu.cn/ubuntu-release/
+http://mirrors.cqu.edu.cn/ubuntu-releases/
 ## 说明
 Ubuntu发行镜像
 ## 收录构架
