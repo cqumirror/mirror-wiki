@@ -7,7 +7,7 @@ weight: 2
 ## 地址
 https://mirrors.cqu.edu.cn/kali
 ## 描述
-kali Linux的官方软件包仓库
+kali Linux 的官方软件包仓库
 ## 收录架构
 
 - x86_64
@@ -54,13 +54,13 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 
 > 以下以`vim`作为示例
 
-1. 在键盘按下<kbd>i</kbd>键 进入编辑模式
+1. 在键盘按下 <kbd>i</kbd> 键 进入编辑模式
 2. 添加下方所示内容或者将`http.kali.org`替换为 `mirrors.cqu.edu.cn`
 ```
 deb https://mirrors.cqu.edu.cn/kali kali-rolling main non-free contrib
 # deb-src https://mirrors.cqu.edu.cn/kali kali-rolling main non-free contrib
 ```
-3. 按下<kbd>Esc</kbd>退出编辑模式，同时按下<kbd>shitf</kbd>+<kbd>;</kbd>键，在输入<kbd>w</kbd>+<kbd>q</kbd>，回车保存
+3. 按下 <kbd>Esc</kbd> 退出编辑模式，同时按下 <kbd>shitf</kbd>+<kbd>;</kbd> 键，在输入 <kbd>w</kbd>+<kbd>q</kbd>，回车保存
 
 #### 4. 刷新缓存
 

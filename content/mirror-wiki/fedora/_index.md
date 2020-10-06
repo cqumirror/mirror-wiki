@@ -1,5 +1,5 @@
 ---
-title: "Fedora镜像使用帮助"
+title: "Fedora 镜像使用帮助"
 date: 2019-02-07T16:20:09+08:00
 draft: false
 weight: 2
@@ -39,7 +39,7 @@ wget   -O   /etc/yum.repos.d/fedora-updates-modular.repo   http://mirrors.cqu.ed
 sudo dnf makecache
 ```
 生成缓存。
-{{%attachments title="repo文件直接下载" pattern=".*(repo)"/%}}
+{{%attachments title="repo 文件直接下载" pattern=".*(repo)"/%}}
 
 ## 相关链接
 {{% notice %}}

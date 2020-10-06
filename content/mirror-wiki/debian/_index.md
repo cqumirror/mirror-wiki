@@ -45,7 +45,7 @@ su -c 'sed -i s/deb.debian.org/mirrors.cqu.edu.cn/ /etc/apt/sources.list'
 但我们更推荐更安全的做法——`sudo`。[如何配置`sudo`](/wiki/mirror-wiki/debian/sudo)。
 {{% /expand %}}
 
-除此之外，您亦可手动编辑`/etc/apt/sources.list`以下是Debian Stable参考配置内容。
+除此之外，您亦可手动编辑`/etc/apt/sources.list`以下是 Debian Stable 参考配置内容。
 ```
 deb http://mirrors.cqu.edu.cn/debian stable main contrib non-free
 # deb-src http://mirrors.cqu.edu.cn/debian stable main contrib non-free

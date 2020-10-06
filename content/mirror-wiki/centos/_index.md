@@ -1,5 +1,5 @@
 ---
-title: "CentOS镜像使用帮助"
+title: "CentOS 镜像使用帮助"
 date: 2019-02-07T16:20:09+08:00
 draft: false
 weight: 2
@@ -7,7 +7,7 @@ weight: 2
 ## 地址
 http://mirrors.cqu.edu.cn/CentOS
 ## 说明
-CentOS软件源
+CentOS 软件源
 ## 收录框架
 - x86_64
 - i386
@@ -21,7 +21,7 @@ CentOS软件源
 ```bash
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 ```
-然后查看CentOS版本：
+然后查看 CentOS 版本：
 ```bash
 cat /etc/system-release
 ```
@@ -50,7 +50,7 @@ wget   -O   /etc/yum.repos.d/CentOS-AppStream.repo  http://mirrors.cqu.edu.cn/re
 {{% notice note %}}
 有些情况下系统没有预装`wget`程序，请提前进行安装。
 {{% /notice %}}
-然后刷新yum缓存：
+然后刷新 yum 缓存：
 ```bash
 yum makecache
 ```

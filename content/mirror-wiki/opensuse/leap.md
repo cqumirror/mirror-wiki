@@ -1,5 +1,5 @@
 ---
-title: "openSUSE Leap镜像使用帮助"
+title: "openSUSE Leap 镜像使用帮助"
 date: 2019-02-07T16:20:09+08:00
 draft: false
 weight: 2
@@ -7,23 +7,23 @@ weight: 2
 ## 地址
 http://mirrors.cqu.edu.cn/opensuse/distribution/leap/
 ## 说明
-openSUSE Leap软件仓库
+openSUSE Leap 软件仓库
 ## 收录架构
 - i586
 - x86_64
 ## 收录版本
-生命期内Leap版本
+生命期内 Leap 版本
 ## 使用说明
 ### 简易版本
 {{% notice note %}}
-此方法适用于安装时装载了YAST2组件的情况
+此方法适用于安装时装载了 YAST2 组件的情况
 {{% /notice %}}
 
 首先从启动器打开`YAST2`
 ![img1](../images/01.png)
 然后打开`软件源配置`，等待加载完成(图中全部软件源已经禁用)
 ![img2](../images/02.png)
-此时我们只需要4个仓库即可完成配置：
+此时我们只需要 4 个仓库即可完成配置：
 
 - OSS
 - update:OSS
@@ -32,7 +32,7 @@ openSUSE Leap软件仓库
 
 修改对应条目地址到 `mirrors.cqu.edu.cn`:
 ![img3](../images/03.png)
-对应地址应为(以Leap 15.1 为例)：
+对应地址应为(以 Leap 15.1 为例)：
 ```bash
 # OSS
 http://mirrors.cqu.edu.cn/opensuse/distribution/leap/15.1/repo/oss/

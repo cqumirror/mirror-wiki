@@ -1,5 +1,5 @@
 ---
-title: "Ubuntu Linux镜像使用帮助"
+title: "Ubuntu Linux 镜像使用帮助"
 date: 2019-02-07T16:20:09+08:00
 draft: false
 weight: 2
@@ -7,12 +7,12 @@ weight: 2
 ## 地址
 http://mirrors.cqu.edu.cn
 ## 说明
-Ubuntu软件仓库
+Ubuntu 软件仓库
 ## 收录架构
 x86_64
 ## 收录版本
 Release
-具体说明请查看[Ubuntu Wiki](http://wiki.ubuntu.com/Releases)
+具体说明请查看 [Ubuntu Wiki](http://wiki.ubuntu.com/Releases)
 ## 使用说明
 ### 简易版本
 {{% notice note %}}
@@ -23,7 +23,7 @@ Release
 ![img1](images/00.jpg)
 3. 在打开的对话框中，**第一个标签页** 的下拉选单中（`下载自`）选择`其他站点`。在新打开的对话框选择中国选单，并选择`mirrors.cqu.edu.cn`，点击`选择服务器`
 ![img2](images/01.jpg)
-4. 点击关闭，此时会询问是否刷新apt缓存，选择 **是** 进行apt缓存刷新，即可使用
+4. 点击关闭，此时会询问是否刷新 apt 缓存，选择 **是** 进行apt缓存刷新，即可使用
 ### 通用版本
 首先备份`sources.list`
 ```bash
@@ -38,7 +38,7 @@ sudo nano /etc/apt.d/sources.list
 
 > 如果源地址为 `cn.archive.ubuntu.com`，那么请将 `cn.archive.ubuntu.com` 替换为 `mirrors.cqu.edu.cn`
 
-通常更改完成应该是这个样子(Ubuntu 19.04为例):
+通常更改完成应该是这个样子(Ubuntu 19.04 为例):
 ```bash
 deb http://mirrors.cqu.edu.cn/ubuntu/ disco main restricted universe multiverse
 # deb-src http://mirrors.cqu.edu.cn/ubuntu/ disco main restricted universe multiverse

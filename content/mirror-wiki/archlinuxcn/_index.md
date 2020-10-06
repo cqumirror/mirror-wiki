@@ -1,5 +1,5 @@
 ---
-title: "ArchLinux CN镜像使用帮助"
+title: "ArchLinux CN 镜像使用帮助"
 date: 2019-02-07T16:20:09+08:00
 draft: false
 weight: 2
@@ -7,7 +7,7 @@ weight: 2
 ## 地址
 https://mirrors.cqu.edu.cn/archlinuxcn/
 ## 说明
-Arch Linux CN仓库
+Arch Linux CN 仓库
 ## 简介
 Arch Linux 中文社区仓库是由 Arch Linux 中文社区驱动的非官方用户仓库。包含中文用户常用软件、工具、字体/美化包等。
 
@@ -15,7 +15,7 @@ Arch Linux 中文社区仓库是由 Arch Linux 中文社区驱动的非官方用
 ## 收录框架
 x86_64
 ## 使用说明
-以root身份手动编辑文件**/etc/pacman.conf**，在文件末尾加入
+以 root 身份手动编辑文件**/etc/pacman.conf**，在文件末尾加入
 ```bash
 [archlinuxcn]
 SigLevel = TrustedOnly
@@ -30,9 +30,9 @@ pacman -Syy
 ```bash
 pacman -S archlinuxcn-keyring
 ```
-添加archlinuxCN的GPG key
+添加 archlinuxCN 的 GPG key
 {{% notice note %}}
-SigLevel建议为TrustedOnly
+SigLevel 建议为 TrustedOnly
 {{% /notice %}}
 ## 相关链接
 Arch Linux 中文社区主页:</br>

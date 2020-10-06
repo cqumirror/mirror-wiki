@@ -1,5 +1,5 @@
 ---
-title: "openSUSE Tumbleweed镜像使用帮助"
+title: "openSUSE Tumbleweed 镜像使用帮助"
 date: 2019-02-07T16:20:09+08:00
 draft: false
 weight: 2
@@ -7,7 +7,7 @@ weight: 2
 ## 地址
 http://mirrors.cqu.edu.cn/opensuse/tumbleweed/
 ## 说明
-openSUSE tumbleweed软件仓库
+openSUSE tumbleweed 软件仓库
 ## 收录架构
 - i586
 - x86_64
@@ -19,7 +19,7 @@ Tumbleweed
 ```bash
 sudo zypper mr -da
 ```
-然后依次执行(Leap 15.1为例):
+然后依次执行(Leap 15.1 为例):
 ```bash
 # OSS
 sudo zypper ar -fc http://mirrors.cqu.edu.cn/opensuse/tumbleweed/repo/oss   openSUSE-CQU-OSS

@@ -25,7 +25,7 @@ OpenWrt / LDED 软件源
 ssh root@IP -p PORT
 # IP 以及 PORT 请替换为具体值，port 一般为 22
 ```
-以登录至shell。然后执行：
+以登录至 shell。然后执行：
 ```bash
 cp /etc/opkg/distfeeds.conf /etc/opkg/distfeeds.conf.save
 ```

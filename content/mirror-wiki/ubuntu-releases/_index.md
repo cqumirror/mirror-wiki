@@ -7,13 +7,13 @@ weight: 2
 ## 地址
 http://mirrors.cqu.edu.cn/ubuntu-releases/
 ## 说明
-Ubuntu发行镜像
+Ubuntu 发行镜像
 ## 收录构架
 - x86
 - x86_64
 
 ## 收录版本
-`生命期`内的release版本，以及旧LTS版本、core版本等。发行代号以及版本号如下表：
+`生命期`内的 release 版本，以及旧 LTS 版本、core 版本等。发行代号以及版本号如下表：
 
 ### 当前版本
 |版本|代号|发行注记|发行时间|停止支持|生命周期结束|
@@ -38,4 +38,4 @@ Ubuntu发行镜像
 |[Ubuntu 14.04.2 LTS](https://mirrors.cqu.edu.cn/ubuntu-releases/14.04.6/)|Trusty Tahr|-|2015.02.20|2019.04|2022.04|
 |[Ubuntu 14.04.1 LTS](https://mirrors.cqu.edu.cn/ubuntu-releases/14.04.6/)|Trusty Tahr|-|2014.07.24|2019.04|2022.04|
 |[Ubuntu 14.04 LTS](https://mirrors.cqu.edu.cn/ubuntu-releases/14.04/)|Trusty Tahr|[Release notes](https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes)|2014.04.17|2019.04|2022.04|
-其余请参见[Ubuntu Wiki](https://wiki.ubuntu.com/Releases)
+其余请参见 [Ubuntu Wiki](https://wiki.ubuntu.com/Releases)
