@@ -1,6 +1,5 @@
 ---
 title: "如何配置 sudo - Debian 软件仓库使用帮助"
-date: 2020-02-03T22:10:00+08:00
 draft: false
 weight: 2
 ---

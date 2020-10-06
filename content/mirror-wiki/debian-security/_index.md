@@ -1,6 +1,5 @@
 ---
 title: "Debian 安全更新使用帮助"
-date: 2020-02-03T22:10:00+08:00
 draft: false
 weight: 2
 ---

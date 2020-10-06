@@ -1,6 +1,5 @@
 ---
 title: Kali Linux 安全镜像使用帮助
-date: 2020-1-13
 draft: false
 weight: 2
 ---

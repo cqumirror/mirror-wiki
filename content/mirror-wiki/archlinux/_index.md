@@ -1,8 +1,7 @@
 ---
 title: "Arch Linux 源使用帮助"
-date: 2019-02-07T16:20:09+08:00
 draft: false
-weight: 1
+weight: 2
 ---
 ## 地址
 http://mirrors.cqu.edu.cn/archlinux/

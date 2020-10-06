@@ -14,12 +14,12 @@
     <div class="highlightable">
     <ul class="topics">
 
-        {{if eq .Site.Params.ordersectionsby "title"}}  
-          {{range .Site.Home.Sections.ByTitle}}
+        {{if eq .Site.Params.ordersectionsby "title"}}
+          {{range sort .Site.Home.Sections.ByTitle ""}}
           {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
           {{end}}
         {{else}}
-          {{range .Site.Home.Sections.ByWeight}}
+          {{range .Site.Home.Sections.ByWeight }}
           {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
           {{end}}
         {{end}} 
@@ -90,14 +90,14 @@
   </div>
 </nav>
 
-<!-- templates -->
+ templates
 {{ define "section-tree-nav" }}
 {{ $showvisitedlinks := .showvisitedlinks }}
 {{ $currentNode := .currentnode }}
  {{with .sect}}
   {{if .IsSection}}
     {{safeHTML .Params.head}}
-    <li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item 
+    <li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item
         {{if .IsAncestor $currentNode }}parent{{end}}
         {{if eq .UniqueID $currentNode.UniqueID}}active{{end}}
         {{if .Params.alwaysopen}}parent{{end}}
@@ -116,24 +116,24 @@
             {{ $currentNode.Scratch.Set "pages" (.Pages | union .Sections) }}
           {{end}}
           {{ $pages := ($currentNode.Scratch.Get "pages") }}
-          
-        {{if eq .Site.Params.ordersectionsby "title"}}  
+
+        {{if eq .Site.Params.ordersectionsby "title"}}
           {{ range $pages.ByTitle }}
-            {{ if and .Params.hidden (not $.showhidden) }} 
+            {{ if and .Params.hidden (not $.showhidden) }}
             {{else}}
             {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
             {{end}}
           {{ end }}
         {{else}}
           {{ range $pages.ByWeight }}
-            {{ if and .Params.hidden (not $.showhidden) }} 
+            {{ if and .Params.hidden (not $.showhidden) }}
             {{else}}
             {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
             {{end}}
           {{ end }}
         {{end}}
         </ul>
-      {{ end }}        
+      {{ end }}
     </li>
   {{else}}
     {{ if not .Params.Hidden }}

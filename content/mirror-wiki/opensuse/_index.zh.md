@@ -1,6 +1,5 @@
 ---
-title: "openSUSE 镜像使用帮助"
-date: 2020-07-19T16:20:00+08:00
+title: "OpenSUSE 镜像使用帮助"
 draft: false
 weight: 2
 ---
@@ -11,4 +10,3 @@ openSUSE 软件仓库
 ## 详见
 - [openSUSE Leap 镜像使用帮助](leap)
 - [openSUSE Tumbleweed 镜像使用帮助](tumbleweed)
-
