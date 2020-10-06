@@ -60,7 +60,7 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 deb https://mirrors.cqu.edu.cn/kali kali-rolling main non-free contrib
 # deb-src https://mirrors.cqu.edu.cn/kali kali-rolling main non-free contrib
 ```
-3. 按下 <kbd>Esc</kbd> 退出编辑模式，同时按下 <kbd>shitf</kbd>+<kbd>;</kbd> 键，在输入 <kbd>w</kbd>+<kbd>q</kbd>，回车保存
+3. 按下 <kbd>Esc</kbd> 退出编辑模式，同时按下 <kbd>shift</kbd>+<kbd>;</kbd> 键，在输入 <kbd>w</kbd>+<kbd>q</kbd>，回车保存
 
 #### 4. 刷新缓存
 

@@ -11,7 +11,7 @@ weight: 2
 ## 地址
 https://mirrors.cqu.edu.cn/pypi/web/simple
 ## 说明
-PyPI 仓库 （pip 软件源）
+PyPI 仓库（pip 软件源）
 ## 使用说明
 ### 临时变更
 ```

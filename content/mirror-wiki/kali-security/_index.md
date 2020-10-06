@@ -48,7 +48,7 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 deb http://mirrors.cqu.edu.cn/kali-security sana/updates main contrib non-free
 # deb http://mirrors.cqu.edu.cn/kali-security sana/updates main contrib non-free
 ```
-* 3：按下 <kbd>Esc</kbd> 退出编辑模式，同时按下 <kbd>shitf</kbd>+<kbd>;</kbd> 键，在输入 <kbd>w</kbd>+<kbd>q</kbd>，回车保存
+* 3：按下 <kbd>Esc</kbd> 退出编辑模式，同时按下 <kbd>shift</kbd>+<kbd>;</kbd> 键，在输入 <kbd>w</kbd>+<kbd>q</kbd>，回车保存
 ##### 3：刷新缓存
 ```
 $ sudo apt update
