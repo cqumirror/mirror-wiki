@@ -13,7 +13,9 @@ High tribute shall be paid to the individuals and communities listed below.
 
 - 重庆大学信息化办公室  /Information Office of CQU
 - 重庆大学蓝客联盟     /Lanunion, CQU
+- 重庆大学蓝盟运维部	/Operation Department of Lanunion, CQU
 
+- 郭俊余	     /Guo Junyu
 - 齐彬烨             /Qi Binye
 - 冯子佩             /Feng Zipei
 - 王一帆             /Wang Yifan
