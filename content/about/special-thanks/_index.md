@@ -11,7 +11,7 @@ High tribute shall be paid to the individuals and communities listed below.
 - 来自重庆大学、开源社区的同伴们/
   Mates from Chongqing University and open source communities.
 
-- 重庆大学信息化办公室  /Information Office of CQU
+- 重庆大学信息化办公室  /Information Technology Office of Chongqing University
 - 重庆大学蓝客联盟     /Lanunion, CQU
 - 重庆大学蓝盟运维部	/Operation Department of Lanunion, CQU
 
