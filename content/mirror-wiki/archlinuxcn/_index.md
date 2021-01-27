@@ -17,7 +17,6 @@ x86_64
 以 root 身份手动编辑文件**/etc/pacman.conf**，在文件末尾加入
 ```bash
 [archlinuxcn]
-SigLevel = TrustedOnly
 Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 执行：
