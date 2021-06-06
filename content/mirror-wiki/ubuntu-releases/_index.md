@@ -18,7 +18,8 @@ Ubuntu 发行镜像
 |版本|代号|发行注记|发行时间|停止支持|生命周期结束|
 |:--|:-:|:-:|:--|--:|--:|
 |[Ubuntu 19.10](https://mirrors.cqu.edu.cn/ubuntu-releases/19.10/)|Eoan Ermine|[Release notes](https://wiki.ubuntu.com/EoanErmine/ReleaseNotes)|2019.10.17|2020.07|2020.07|
-|[Ubuntu **18.04.4 LTS**](https://mirrors.cqu.edu.cn/ubuntu-releases/18.04.4/)|Bionic Beaver|-|2020.02.12|2023.04|2028.04|
+|[Ubuntu **18.04.5 LTS**](https://mirrors.cqu.edu.cn/ubuntu-releases/18.04.5/)|Bionic Beaver|-|2020.08.13|2023.04|2028.04|
+|[Ubuntu 18.04.4 LTS](https://mirrors.cqu.edu.cn/ubuntu-releases/18.04.4/)|Bionic Beaver|-|2020.02.12|2023.04|2028.04|
 |[Ubuntu 18.04.3 LTS](https://mirrors.cqu.edu.cn/ubuntu-releases/18.04.4/)|Bionic Beaver|-|2019.08.08|2023.04|2028.04|
 |[Ubuntu 18.04.2 LTS](https://mirrors.cqu.edu.cn/ubuntu-releases/18.04.4/)|Bionic Beaver|-|2019.02.15|2023.04|2028.04|
 |[Ubuntu 18.04.1 LTS](https://mirrors.cqu.edu.cn/ubuntu-releases/18.04.4/)|Bionic Beaver|-|2018.07.26|2023.04|2028.04|
