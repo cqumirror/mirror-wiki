@@ -8,6 +8,13 @@ themesdir = "themes/"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
+# Enable Html support
+[markup]
+defaultMarkdownHandler = "goldmark"
+ [markup.goldmark]
+  [markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
   # Useful to give opportunity to people to create merge request for your doc.
