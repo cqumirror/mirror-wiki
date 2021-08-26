@@ -20,10 +20,10 @@ Debian 软件仓库
 - 源代码
 
 ## 收录版本
-- oldoldstable (jessie)
-- oldstable (stretch)
-- stable (buster)
-- testing (bullseye)
+- oldoldstable (stretch)
+- oldstable (buster)
+- stable (bullseye)
+- testing (bookworm)
 - unstable (sid)
 - experimental
 
