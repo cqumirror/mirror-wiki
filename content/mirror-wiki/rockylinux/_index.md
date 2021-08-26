@@ -12,7 +12,7 @@ Rocky Linux 软件源
 - aarm64
 
 ## 收录版本
-- Rock Linux 8
+- Rocky Linux 8
 
 ## 使用说明
 首先备份全部 `repo` 文件：
