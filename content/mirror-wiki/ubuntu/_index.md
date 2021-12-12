@@ -51,7 +51,7 @@ deb http://mirrors.cqu.edu.cn/ubuntu/ bionic-security main restricted universe m
 # deb http://mirrors.cqu.edu.cn/ubuntu/ disco-proposed main restricted universe multiverse
 # deb-src http://mirrors.cqu.edu.cn/ubuntu/ disco-proposed main restricted universe multiverse
 ```
-（其中发行版本后的bionic有可能为disco，以实际情况为准）
+（例子中的发行版版本`bionic`可能与实际版本不同，请以实际情况为准）
 然后执行：
 ```bash
 sudo apt update
