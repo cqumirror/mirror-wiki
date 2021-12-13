@@ -26,31 +26,32 @@ Release
 ### 通用版本
 首先备份`sources.list`
 ```bash
-sudo cp /etc/apt.d/sources.list /etc/apt.d/sources.list.bak
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 ```
 然后执行
 ```bash
-sudo nano /etc/apt.d/sources.list
+sudo nano /etc/apt/sources.list
 ```
 使用`Ctrl+\`搜索`archive.ubuntu.com`,并填入`mirrors.cqu.edu.cn`，回车提交，按`Capital + a`即`A`全部替换。</br>
 按`Ctrl+o`进行写入更改，按`Ctrl+x`退出
 
 > 如果源地址为 `cn.archive.ubuntu.com`，那么请将 `cn.archive.ubuntu.com` 替换为 `mirrors.cqu.edu.cn`
 
-通常更改完成应该是这个样子(Ubuntu 19.04 为例):
+通常更改完成应该是这个样子(Ubuntu 20.04 为例):
 ```bash
-deb http://mirrors.cqu.edu.cn/ubuntu/ disco main restricted universe multiverse
-# deb-src http://mirrors.cqu.edu.cn/ubuntu/ disco main restricted universe multiverse
-deb http://mirrors.cqu.edu.cn/ubuntu/ disco-updates main restricted universe multiverse
-# deb-src http://mirrors.cqu.edu.cn/ubuntu/ disco-updates main restricted universe multiverse
-deb http://mirrors.cqu.edu.cn/ubuntu/ disco-backports main restricted universe multiverse
-# deb-src http://mirrors.cqu.edu.cn/ubuntu/ disco-backports main restricted universe multiverse
-deb http://mirrors.cqu.edu.cn/ubuntu/ disco-security main restricted universe multiverse
-# deb-src http://mirrors.cqu.edu.cn/ubuntu/ disco-security main restricted universe multiverse
+deb http://mirrors.cqu.edu.cn/ubuntu/ bionic main restricted universe multiverse
+# deb-src http://mirrors.cqu.edu.cn/ubuntu/ bionic main restricted universe multiverse
+deb http://mirrors.cqu.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+# deb-src http://mirrors.cqu.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+deb http://mirrors.cqu.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+# deb-src http://mirrors.cqu.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+deb http://mirrors.cqu.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+# deb-src http://mirrors.cqu.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
 
 # deb http://mirrors.cqu.edu.cn/ubuntu/ disco-proposed main restricted universe multiverse
 # deb-src http://mirrors.cqu.edu.cn/ubuntu/ disco-proposed main restricted universe multiverse
 ```
+（例子中的发行版版本`bionic`可能与实际版本不同，请以实际情况为准）
 然后执行：
 ```bash
 sudo apt update
