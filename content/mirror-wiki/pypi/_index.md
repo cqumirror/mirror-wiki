@@ -51,6 +51,7 @@ sudo pip install -i https://mirrors.cqu.edu.cn/pypi/web/simple pip
 ```
 
 ## 相关链接
+
 {{% notice %}}
-官方主页：https://www.pypi.org/
+官方主页： https://www.pypi.org/
 {{% /notice %}}
