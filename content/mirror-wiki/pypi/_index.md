@@ -49,3 +49,9 @@ pip install -i https://mirrors.cqu.edu.cn/pypi/web/simple pip -U
 #全局(仅限Linux以及类Unix)
 sudo pip install -i https://mirrors.cqu.edu.cn/pypi/web/simple pip
 ```
+
+## 相关链接
+
+{{% notice %}}
+官方主页： https://www.pypi.org/
+{{% /notice %}}
