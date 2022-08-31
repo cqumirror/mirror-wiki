@@ -6,7 +6,7 @@ weight: 2
 
 ## 地址
 
-http://mirrors.cqu.edu.cn
+https://mirrors.cqu.edu.cn/ubuntu/
 
 ## 说明
 
@@ -96,6 +96,22 @@ deb http://mirrors.cqu.edu.cn/ubuntu/ focal-security main restricted universe mu
 # deb-src http://mirrors.cqu.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
 ```
 
+对于 Ubuntu 22.04 (jammy)
+
+```bash
+deb http://mirrors.cqu.edu.cn/ubuntu/ jammy main restricted universe multiverse
+# deb-src http://mirrors.cqu.edu.cn/ubuntu/ jammy main restricted universe multiverse
+deb http://mirrors.cqu.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
+# deb-src http://mirrors.cqu.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
+deb http://mirrors.cqu.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
+# deb-src http://mirrors.cqu.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
+deb http://mirrors.cqu.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+# deb-src http://mirrors.cqu.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+
+# deb http://mirrors.cqu.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
+# deb-src http://mirrors.cqu.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
+```
+
 然后执行
 
 ```bash
@@ -148,3 +164,4 @@ https://ubuntuforums.org/
 中文论坛
 https://forum.ubuntu.org.cn/
 {{% /notice %}}
+
