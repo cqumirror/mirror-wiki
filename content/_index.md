@@ -16,3 +16,4 @@ weight = 5
 - opensuse leap
 - opensuse tumbleweed
 - OpenWrt / LEDE
+- Homebrew (formula)
