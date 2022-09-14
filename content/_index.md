@@ -20,6 +20,6 @@ weight = 5
 - Debian
 - Gentoo
 - Kali
-- K
+- KiCad
 - Rocky
 - Homebrew Formula
