@@ -13,6 +13,13 @@ weight = 5
 - Manjaro
 - Fedora
 - Ubuntu
-- opensuse leap
-- opensuse tumbleweed
+- openSUSE Leap
+- openSUSE Tumbleweed
 - OpenWrt / LEDE
+- Debian Security
+- Debian
+- Gentoo
+- Kali
+- KiCad
+- Rocky
+- Homebrew Formula
