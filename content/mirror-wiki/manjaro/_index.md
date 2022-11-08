@@ -4,7 +4,7 @@ draft: false
 weight: 2
 ---
 ## 地址
-http://mirrors.cqu.edu.cn/manjaro/
+https://mirrors.cqu.edu.cn/manjaro/
 ## 说明
 Monjoro Linux 软件源
 ## 收录框架
@@ -13,7 +13,7 @@ Monjoro Linux 软件源
 ## 使用说明
 以 root 身份手动编辑文件`/etc/pacman.d/mirrorlist`，在文件顶端加入
 ```bash
-Server = http://mirrors.cqu.edu.cn/manjaro/stable/$repo/$arch
+Server = https://mirrors.cqu.edu.cn/manjaro/stable/$repo/$arch
 ```
 ## 相关链接
 {{% notice %}}
