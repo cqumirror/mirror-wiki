@@ -29,7 +29,7 @@ git clone https://mirrors.cqu.edu.cn/git/linux.git
 ```bash
 git clone https://mirrors.cqu.edu.cn/git/linux.git
 cd linux
-git remote add respberrypi https://github.com/raspberrypi/linux.git
-git fetch respberrypi rpi-6.1.y # 分支可根据需要自行更换
+git remote add raspberrypi https://github.com/raspberrypi/linux.git
+git fetch raspberrypi rpi-6.1.y # 分支可根据需要自行更换
 git checkout rpi-6.1.y
 ```
