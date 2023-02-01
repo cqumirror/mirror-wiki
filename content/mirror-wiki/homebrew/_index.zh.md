@@ -23,8 +23,8 @@ Homebrew 的镜像分为两部分，一个是 formula 索引源，另一个已�
  将以下内容添加到 shell 的配置文件中，如 `.zshrc` 或 `.bash_profile` 中，
 
  ```sh
- export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.bfsu.edu.cn/git/homebrew/brew.git"
- export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.bfsu.edu.cn/git/homebrew/homebrew-core.git"
+ export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.cqu.edu.cn/git/homebrew/brew.git"
+ export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.cqu.edu.cn/git/homebrew/homebrew-core.git"
  ```
 
  再 source 对应的 shell 配置文件，运行 `brew update`，即可更新 Homebrew 的 formula 索引。
