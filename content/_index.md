@@ -23,3 +23,7 @@ weight = 5
 - KiCad
 - Rocky
 - Homebrew Formula
+- Linux git 仓库
+- PyPI
+- Rust crates.io 索引
+- ROS
