@@ -58,7 +58,7 @@ sudo nano /etc/apt/sources.list
 ```
 
 使用 <kbd>ctrl</kbd> + <kbd>\\</kbd> 搜索 `archive.ubuntu.com`，并填入 `mirrors.cqu.edu.cn`，回车提交，按 <kbd>shift</kbd> + <kbd>a</kbd> 即 <kbd>A</kbd> 全部替换。
-按 <kbd>Ctrl</kbd> + <kbd>o</kbd> 进行写入更改，按  <kbd>ctrl</kbd> + <kbd>o</kbd>  退出。
+按 <kbd>Ctrl</kbd> + <kbd>o</kbd> 进行写入更改，按  <kbd>Ctrl</kbd> + <kbd>x</kbd>  退出。
 
 > 如果源地址为 `cn.archive.ubuntu.com`，那么请将 `cn.archive.ubuntu.com` 替换为 `mirrors.cqu.edu.cn`
 
